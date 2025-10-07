@@ -48,3 +48,33 @@ Soal 2: Bungkus teks pertama dengan Container dan beri padding: EdgeInsets.only(
 
 Soal 3: Tambahkan Icon(Icons.star, color: Colors.red) dan Text('41') di dalam Row. Bungkus seluruh baris dalam Container dengan padding: EdgeInsets.all(32) dan tampilkan di body menggunakan body: titleSection.
 
+
+## **Praktikum 2: Implementasi button row**
+
+* Langkah 1: Buat method Column _buildButtonColumn
+
+memanggil method pembantu yang menampilkan icon dan text
+![Penyesuain](image/Screenshot%202025-10-07%20164237.png)
+
+* Langkah 2: Buat widget buttonSection
+![Penyesuain](image/Screenshot%202025-10-07%20164807.png)
+
+* Langkah 3: Tambah button section ke body
+![Penyesuain](image/Screenshot%202025-10-07%20165048.png)
+
+Hasil :
+![Hasil](image/Screenshot%202025-10-07%20165139.png)
+
+
+## **Praktikum 3: Implementasi text section**
+
+* Langkah 1: Buat widget textSection
+![Penyesuaian](image/Screenshot%202025-10-07%20170855.png)
+
+* Langkah 2: Tambahkan variabel text section ke body
+![Penyesuaian](image/Screenshot%202025-10-07%20171010.png)
+
+
+Hasil :
+![Hasil](image/Screenshot%202025-10-07%20171158.png)
+
