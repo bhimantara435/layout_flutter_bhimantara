@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -64,7 +65,7 @@ class MyApp extends StatelessWidget {
       padding: const EdgeInsets.all(32),
       child: const Text(
         'Kota Batu adalah sebuah kota di Provinsi Jawa Timur yang terletak di lereng Gunung Panderman, Gunung Arjuno, dan Gunung Banyak. Dikenal sebagai “Kota Wisata,” Batu memiliki udara yang sejuk dan panorama alam yang indah. Kota ini terkenal dengan destinasi seperti Jatim Park, Museum Angkut, Selecta, dan berbagai agrowisata apel. Selain pariwisata, sektor pertanian—khususnya buah-buahan—juga menjadi andalan ekonomi masyarakatnya. Batu sering dijuluki “Swiss kecil di Pulau Jawa” karena keindahan alam pegunungannya yang menawan.'
-        'Bhimantara - 2341760025 Sebagai Programmer, saya tertarik dengan pengembangan aplikasi mobile menggunakan Flutter.',
+        ' Bhimantara - 2341760025 Sebagai Programmer, saya tertarik dengan pengembangan aplikasi mobile menggunakan Flutter.',
         softWrap: true,
       ),
     );
@@ -75,8 +76,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter Layout Demo'),
         ),
-        body: Column(
+        // Praktikum 4 Langkah 3: ubah Column menjadi ListView dan tambahkan gambar
+        body: ListView(
           children: [
+            Image.asset(
+              'images/kota batu.jpeg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection, // hasil dari praktikum 1 langkah 4
             buttonSection, // hasil dari praktikum 2 langkah 2
             textSection, // hasil dari praktikum 3 langkah 1
@@ -108,3 +116,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
