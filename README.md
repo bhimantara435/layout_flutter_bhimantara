@@ -110,4 +110,4 @@ Membagi layout menjadi bagian-bagian (image, title, buttons, text) memudahkan da
 
 Dengan menambahkan ListView, aplikasi menjadi scrollable sehingga konten yang panjang tetap bisa diakses dengan mudah.
 
-Secara keseluruhan, praktikum ini sangat membantu memahami struktur dasar layout Flutter dan cara menyusun UI yang sederhana namun rapi.
+Secara keseluruhan, praktikum ini sangat membantu memahami struktur dasar layout Flutter dan cara menyusun UI yang sederhana namun rapi..
