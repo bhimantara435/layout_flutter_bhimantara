@@ -78,3 +78,36 @@ Hasil :
 Hasil :
 ![Hasil](image/Screenshot%202025-10-07%20171158.png)
 
+## **Praktikum 4: Implementasi image section**
+
+* Langkah 1: Siapkan aset gambar
+![Penyesuaian](image/Screenshot%202025-10-07%20173501.png)
+![Penyesuaian](image/Screenshot%202025-10-07%20173444.png)
+
+* Langkah 2: Tambahkan gambar ke body
+![Penyesuaian](image/Screenshot%202025-10-07%20173547.png)
+
+* Langkah 3: Terakhir, ubah menjadi ListView
+
+dari yang seperti ini (Column)
+![Penyesuaian](image/Screenshot%202025-10-07%20174342.png)
+menjadi ListView
+![Penyesuaian](image/Screenshot%202025-10-07%20174400.png)
+
+Hasil :
+![Hasil](image/Screenshot%202025-10-07%20173416.png)
+
+
+Kesimpulan 
+
+Dari keseluruhan praktikum ini, saya mendapatkan beberapa pemahaman penting:
+
+Flutter menggunakan konsep widget sebagai blok dasar UI, sehingga layout dapat dibangun dengan kombinasi Column, Row, Container, dan ListView.
+
+Padding, alignment, dan Expanded sangat penting untuk membuat tampilan rapi dan responsif.
+
+Membagi layout menjadi bagian-bagian (image, title, buttons, text) memudahkan dalam pengembangan dan penyesuaian tampilan.
+
+Dengan menambahkan ListView, aplikasi menjadi scrollable sehingga konten yang panjang tetap bisa diakses dengan mudah.
+
+Secara keseluruhan, praktikum ini sangat membantu memahami struktur dasar layout Flutter dan cara menyusun UI yang sederhana namun rapi.
